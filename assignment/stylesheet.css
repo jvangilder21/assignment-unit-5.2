@@ -1,0 +1,63 @@
+/*- Give the `header` a dark background color and choose a light  color for the text.*/
+/*- Center the text in the `header`.*/
+header{
+    background-color: darkred;
+    color: seashell; 
+    text-align: center;
+}
+
+/*- Give the `main` a light grey background color.*/
+main{
+    background-color: lightgrey;
+    background-image: url('record.png');
+    background-repeat: repeat;
+    height: 750px;
+    padding: 1em;
+
+}
+body{
+  margin: 0px;
+}
+.music{
+  text-align: center;
+  background-color: darkred;
+  color: seashell; 
+  width: 400px;
+  margin: auto;
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', Verdana, sans-serif;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px gold;
+}
+.title{
+  font-family: 'Architects Daughter', Verdana, sans-serif;
+  padding-top: 25px;
+}
+.shop{
+  font-family: 'Architects Daughter', 'Lucida Grande', sans-serif;
+  padding-bottom: 15px;
+}
+
+/*
+
+- Look up the CSS `background-image` property to learn how to use the provided 
+`record.png` as the background image on your page with a relative path.
+- Look up CSS `background-repeat` to learn how to fill the body of the page with 
+a repeating image.
+
+
+- Look up CSS `margin` and `padding`. 
+  - Give the `body` a margin of `0`. (This removes the whitespace around the 
+  edges of the page.) 
+  - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.)
+
+
+*/
+/*
+
+__STRETCH GOAL:__ Use CSS style classes vs element names to do your styling, 
+except for adding the margin to the `body`. That is a good thing to add to 
+every CSS file, and it should use the `body` HTML tag name.
+
+*/
